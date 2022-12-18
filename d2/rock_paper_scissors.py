@@ -1,8 +1,7 @@
-# read txt file in
+from utils.read_file import read_file
+
 path = "/Users/jliuu/Documents/Github/personal/advent-of-code-2022/d2/input.txt"
-text_file = open(path, "r")
-input_str = text_file.read()
-text_file.close()
+input_str = read_file(path)
 
 # input_str = """A Y
 # B X
